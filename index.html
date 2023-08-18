@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+  <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
+</head>
+
+<body>
+
+  <header class="primary-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#"><img class="company-logo" src="images/Automate IT Limited Final Logo with Bangla.png" alt="Manage"></a>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul aria-label="Primary" role="list" class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contacts</a></li>
+
+          </ul>
+        </nav>
+        <div class="display-sm-none display-md-inline-flex contact-phone">
+            <svg class="icon phone-icon">
+              <use xlink:href="images/phone.svg#phone-svgrepo-com"></use>
+            </svg>
+            <h1>+8800000000000</h1>          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero section -->
+    <section class="padding-block-900">
+      <div class="container">
+        <div class="even-columns">
+          <div class="flow">
+            <h1 class="fs-primary-heading fw-bold">
+              Make your Task esier!
+            </h1>
+            <h2 class="fw-bold fs-600 font-uppercase">Our Software care's about you</h2>
+            <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in
+              view.</p>
+
+          </div>
+          <div class="hero__image">
+            <!-- background-image: url('images/bg-tablet-pattern.svg'),  -->
+            <img src="images/illustration-intro.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Type -->
+    <section class="padding-block-500">
+      <div class="container padding-bottom-900" >      
+          <ul role="list" class="even-columns services-types no-gap">
+            <li class="service-type__item">
+
+              <h1 class="fs-tertiary-heading fw-bold" >
+                Fast Integration
+              </h1>
+
+
+              <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt quis facere, ea voluptatum  </p>
+            </li>
+            <li class="service-type__item">
+              <h1 class="fs-tertiary-heading  fw-bold">
+                Repid support
+              </h1>
+              <p data-width="wide">odit dicta error facilis?  Nulla provident distinctio nostrum, eligendi iste tempora qui harum veniam </p>
+            </li>
+            <li class="service-type__item">
+              <h1 class="fs-tertiary-heading  fw-bold">
+                No hidden charge
+              </h1>
+              <p data-width="wide">dicta nam neque repudiandae quod nobis quis nemo  doloremque culpa nesciunt, excepturi minus!</p>
+            </li>
+          </ul>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="padding-block-500 text-center  bg-accent-400 text-accent-100">
+      <h2 class="fs-secondary-heading fw-bold text-center padding-block-700 text-shadow-accent-600">Our services</h2>
+      <div class="container padding-block-700">
+        <div class="flex services">
+
+          <div class="service-item__card">
+            <div class="service-icon">
+              <svg class="icon text-shadow-accent-600" >
+                <use xlink:href="images/web-service.svg#laptop-web-development-svgrepo-com"></use>
+              </svg>
+            </div>
+            <h1 class="service-item-card__title text-shadow-accent-600">Web Service</h1>            
+          </div>
+
+          <div class="service-item__card">
+            <div class="service-icon">
+              <svg class="icon text-shadow-accent-600">
+                <use xlink:href="images/icon-mobile.svg#mobile-svgrepo-com"></use>
+              </svg>
+            </div>
+            <h1 class="service-item-card__title text-shadow-accent-600">Mobile App</h1>            
+          </div>
+          
+          <div class="service-item__card">
+            <div class="service-icon">
+              <svg class="icon text-shadow-accent-600">
+                <use xlink:href="images/icon-pos.svg#pos-svgrepo-com"></use>
+              </svg>
+            </div>
+            <h1 class="service-item-card__title text-shadow-accent-600">Point of sale</h1>            
+          </div>
+
+          <div class="service-item__card">
+            <div class="service-icon">
+              <svg class="icon text-shadow-accent-600">
+                <use xlink:href="images/icon-mgt.svg#management-svgrepo-com"></use>
+              </svg>
+            </div>
+            <h1 class="service-item-card__title text-shadow-accent-600">office management</h1>            
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Special Features -->
+    <section class="padding-block-900 ">
+      <div class="container">
+        <div class="even-columns">
+          <div class="sales-point__blog | flow text-center-sm-only" style="--flow-spacer: 1.5rem">
+            <h2 class="fs-secondary-heading fw-bold">Speciality of our Application</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere odit qui quia itaque repellendus ab? 
+              Fugiat nesciunt earum praesentium molestias numquam nihil aut deserunt odit provident, sequi eius impedit</p>
+          </div>
+          <div>
+            <ul class="numbered-items | flow" role="list">
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Fully Researched UX</h3>
+                  <p class="numbered-items__body" data-width="wide"> exercitationem eligendi quos id nisi, dolorum deleniti? Porro nobis, 
+                    cum ea adipisci ratione quos? Iusto sed excepturi, impedit temporibus dolor iste nesciunt repellat nisi id labore 
+                    officia saepe esse iure? Iste.</p>
+                </div>
+              </li>
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Easy and Friendly UI</h3>
+                  <p class="numbered-items__body" data-width="wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt expedita possimus harum unde, ea maxime dolore sint? Modi, dignissimos ipsam. Sit veniam earum veritatis error ex a exercitationem quam repellendus?</p>
+                </div>
+              </li>
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Fully Tested Application</h3>
+                  <p class="numbered-items__body" data-width="wide">Consectetur exercitationem ullam iusto recusandae tempore. Impedit illum molestias architecto, hic recusandae 
+                    sed error laudantium totam, deleniti aut ea accusamus nam ab nisi a? Sint, reprehenderit? Accusamus tempora nam quae ipsa nulla.
+                  </p>
+                </div>
+              </li>
+              <li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Item Details -->
+    <section class="padding-block-900">
+      <h1 class="fs-primary-heading fw-bold text-center padding-bottom-900"> Manage your Educational Institute </h1>
+
+      <div class="container">
+        <div class="product-feature | flex flex-column-sm flex-row-md flex-gap-900  text-center-sm-only " >
+
+          <div class="product-img-container">
+            <img class="product-img product-img-l" src="images/illustration-intro.jpg" alt="">
+          </div>
+
+          <div class="product-details | flow">          
+            <h2 class="fs-secondary-heading fw-bold ">Feature 0</h2>
+            <h2 class="fw-bold fs-600 font-uppercase">Our Software care's about you</h2>
+            <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="container ">
+        <div class="product-feature | flex flex-column-sm flex-row-reverse-md flex-gap-900 text-center-sm-only" >
+
+          <div class="product-img-container ">
+            <img class=" product-img product-img-r" src="images/illustration-intro.jpg" alt="">
+          </div>
+
+
+          <div class="product-details | flow">
+          <h2 class="fs-secondary-heading fw-bold ">Feature 1</h2>
+
+            <h2 class="fw-bold fs-600 font-uppercase">Our Software care's about you</h2>
+            <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in
+              view.</p>
+
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Our Clients -->
+    <section class="padding-block-500 text-center  bg-accent-400">
+      <h2 class="fs-secondary-heading fw-bold text-center padding-block-700 text-shadow-accent-200">Our Partners</h2>
+      <div class="container padding-block-700">
+        <div class="flex services">
+
+          <div class="service-item__card">
+            <div class="service-icon ">
+              <svg class="icon text-shadow-accent-200">
+                <use xlink:href="images/Sonali_Bank_Limited.svg#Sonali_Bank_Limited"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="service-item__card">
+            <div class="service-icon">
+
+              <svg class="icon text-shadow-accent-200">
+                <use xlink:href="images/metronet-logo.svg#metronet-logo"></use>
+              </svg>
+
+            </div>
+          </div>
+          
+          <div class="service-item__card">
+            <div class="service-icon">
+              <svg class="icon text-shadow-accent-200">
+                <use xlink:href="images/mobishaastra.svg#mobishaastra"></use>
+              </svg>
+            </div>
+            <!-- <h1 class="service-item-card__title text-shadow-accent-600">Point of sale</h1>             -->
+          </div>
+
+          <div class="service-item__card">
+            <div class="service-icon">
+              <svg class="icon text-shadow-accent-200">
+                <use xlink:href="images/shurjoPay.svg#shurjoPay"></use>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Feedback -->
+    <section class="carousel | padding-block-900  text-center">
+      <h2 class="fs-secondary-heading fw-bold">what our clients say</h2>
+      <!-- Carousel here -->
+      <ul class="slider">
+
+        <li>
+          <img src="images/avatar-anisha.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Anisha Li</h3>
+            <p data-width="wide">“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
+          </div>
+        </li>
+
+        <li>
+          <img src="images/avatar-ali.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Ali Bravo</h3>
+            <p data-width="wide">“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”</p>
+          </div>
+        </li>
+
+        <li>
+          <img src="images/avatar-richard.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Richard Watts</h3>
+            <p data-width="wide">“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!” </p>
+          </div>
+        </li>
+
+        <li>
+          <img src="images/avatar-shanai.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Shanai Gough</h3>
+            <p data-width="wide">“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.” </p>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- Contacts-->
+    <section class="cta | margin-top-900 padding-block-900 bg-accent-400 text-neutral-100">
+      <div class="container">
+        <div class="even-columns vertical-align-center">
+          <div>
+            <p class="fs-primary-heading fw-bold text-shadow-accent-600">We will contact with you</p>
+          </div>
+          <div class="justify-self-end-md">
+            <form class="contact-us__form" action="">
+              <input type="text">
+              <button class="button" data-type="inverted">send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="primary-footer | padding-block-700 bg-neutral-900 text-neutral-100">
+    <div class="container">
+      <div class="primary-footer__wrapper">
+          <a class="primary-footer__logo" href="#" aria-label="home">
+            <img class="company-logo" src="images/Automate IT Limited Final Logo with Bangla.png" alt="Manage">
+          </a>
+
+          <ul class="social-list" role="list" aria-label="Social links">
+            <li><a aria-label="facebook" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-facebook"></use>
+                </svg></a>
+            </li>
+            <li><a aria-label="youtube" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-youtube"></use>
+                </svg>
+              </a></li>
+            <li><a aria-label="twitter" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-twitter"></use>
+                </svg>
+              </a></li>
+            <li><a aria-label="pinterest" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-pinterest"></use>
+                </svg>
+              </a></li>
+            <li><a aria-label="instragram" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-instagram"></use>
+                </svg>
+              </a></li>
+          </ul>
+        <!-- </div> -->
+        <div class="primary-footer__nav-wrapper">
+          <nav class="footer-nav">
+            <ul class="flow" style="--flow-spacer: 1em" aria-label="Footer" role="list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- <div class="primary-footer-form"> -->
+          
+          <p class="primary-footer__copyright">Copyright 2020. All Rights Reserved</p>
+        <!-- </div> -->
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
